@@ -1,0 +1,44 @@
+.container-card {
+   animation-duration: 2s;
+   animation-name: fade;
+   display: flex;
+   justify-content: center;
+}
+
+@keyframes fade {
+   from {
+      opacity: 0;
+      transform: scale(0.5);
+   }
+   to {
+      opacity: 1;
+      transform: scale(1);
+   }
+}
+
+.container-card__img {
+   margin-right: 20px;
+}
+
+.container-card__img img {
+   border: rgba(0, 0, 0, 0.5) solid 2px;
+   box-shadow: 2px 2px 5px rgba(0, 0, 0, 1), -2px 0px 5px rgba(0, 0, 0, 1);
+}
+.container-card__text {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.button-return {
+   background-color: rgb(0, 0, 0);
+   box-shadow: 2px 2px 5px rgba(0, 0, 0, 1), -2px 0px 5px rgba(0, 0, 0, 1);
+   border: 2px solid white;
+   color: white;
+   height: 3rem;
+   width: 5rem;
+   transition: 1s;
+}
+
+.button-return:hover {
+   transform: scale(1.1);
+}

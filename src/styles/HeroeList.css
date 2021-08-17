@@ -1,0 +1,55 @@
+.container1 {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.container-child {
+   margin: 30px;
+   margin-bottom: 40px;
+   position: relative;
+}
+
+.container-child:hover .img {
+   cursor: pointer;
+   filter: brightness(90%);
+   transform: scale(1.2);
+}
+
+.container-child:hover .absolute {
+   opacity: 0;
+}
+.img {
+   border: rgba(0, 0, 0, 0.5) solid 2px;
+   box-shadow: 2px 2px 5px rgba(0, 0, 0, 1), -2px 0px 5px rgba(0, 0, 0, 1);
+   border-radius: 10%;
+   filter: brightness(70%);
+   position: relative;
+   transition: 1s;
+   width: 350px;
+   z-index: 0;
+}
+
+.absolute {
+   color: white;
+   position: absolute;
+   z-index: 1;
+   top: 2%;
+   left: 10%;
+   transition: 1s;
+}
+
+.publisher {
+   top: 6%;
+}
+
+.alter_ego {
+   top: 84%;
+}
+
+.first_appearance {
+   top: 80%;
+}
+
+.characters {
+   top: 76%;
+}
