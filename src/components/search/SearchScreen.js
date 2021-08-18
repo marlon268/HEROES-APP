@@ -8,7 +8,7 @@ import { getHeroesByName } from '../../selectors/getHeroesByName';
 
 export const SearchScreen = ({ history }) => {
 
-   // npm install query-string; lo instalaman para obtener mas facilmente la query
+   // npm install query-string; lo instalamos para obtener mas facilmente la query
 
    const location = useLocation();
 
@@ -21,7 +21,7 @@ export const SearchScreen = ({ history }) => {
 
    const { searchText } = valuesForm;
 
-   const heroesFiltered = useMemo(() => getHeroesByName(q), [q])
+   const heroesFiltered = useMemo(() => getHeroesByName(q), [q]);
 
    const handleSearch = (e) => {
 
@@ -61,12 +61,14 @@ export const SearchScreen = ({ history }) => {
                <hr /></div>
             <div className="container1">
 
-               {heroesFiltered.map((hero) => (
-                  <HeroCard
-                     key={hero.id}
-                     {...hero}
-                  />
-               ))}
+               {heroesFiltered.length < 1 ? <h1 className="text-danger">Heroe no existe</h1> :
+                  heroesFiltered.map((hero) => (
+                     <HeroCard
+                        key={hero.id}
+                        {...hero}
+                     />
+                  ))
+               }
             </div>
          </div>
       </div>

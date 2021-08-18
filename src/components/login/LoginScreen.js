@@ -15,14 +15,13 @@ export const LoginScreen = ({ history }) => {
          payload: {
             name: "Marlon"
          }
-      }
+      };
 
       dispatch(action);
 
-      history.replace(lastPath)
+      history.replace(lastPath);
 
    }
-
 
    return (
       <div className="container mt-5">

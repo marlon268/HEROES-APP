@@ -1,0 +1,316 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente <DashboardRoutes/> Debe de mostrarse correctamente 1`] = `
+Array [
+  <nav
+    className="navbar navbar-expand-sm navbar-dark bg-dark"
+  >
+    <div
+      className="navbar-collapse"
+    >
+      <div
+        className="navbar-nav"
+      >
+        <a
+          aria-current="page"
+          className="nav-item nav-link active"
+          href="/marvel"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          Marvel
+        </a>
+        <a
+          aria-current={null}
+          className="nav-item nav-link"
+          href="/dc"
+          onClick={[Function]}
+        >
+          DC
+        </a>
+        <a
+          aria-current={null}
+          className="nav-item nav-link"
+          href="/search"
+          onClick={[Function]}
+        >
+          Search
+        </a>
+      </div>
+    </div>
+    <div
+      className="navbar-collapse collapse w-100 order-3 dual-collapse2"
+    >
+      <ul
+        className="navbar-nav ms-auto"
+      >
+        <span
+          className="nav-item nav-link text-info"
+        >
+          Juanito
+        </span>
+        <button
+          className="nav-item nav-link btn"
+          onClick={[Function]}
+        >
+          Logout
+        </button>
+      </ul>
+    </div>
+  </nav>,
+  <div
+    className="container-all"
+  >
+    <div>
+      <h1>
+        Marvel Screen
+      </h1>
+      <hr />
+      <div
+        className="container1 animate__animated animate__fadeIn"
+      >
+        <div
+          className="container-child"
+        >
+          <a
+            href="/hero/marvel-spider"
+            onClick={[Function]}
+          >
+            <h5
+              className="absolute superhero"
+            >
+              Spider Man
+            </h5>
+            <h5
+              className="absolute publisher"
+            >
+              Marvel Comics
+            </h5>
+            <img
+              alt="Spider Man"
+              className="img"
+              src="./assets/heroes/marvel-spider.jpg"
+            />
+          </a>
+        </div>
+        <div
+          className="container-child"
+        >
+          <a
+            href="/hero/marvel-captain"
+            onClick={[Function]}
+          >
+            <h5
+              className="absolute superhero"
+            >
+              Captain America
+            </h5>
+            <h5
+              className="absolute publisher"
+            >
+              Marvel Comics
+            </h5>
+            <img
+              alt="Captain America"
+              className="img"
+              src="./assets/heroes/marvel-captain.jpg"
+            />
+          </a>
+        </div>
+        <div
+          className="container-child"
+        >
+          <a
+            href="/hero/marvel-iron"
+            onClick={[Function]}
+          >
+            <h5
+              className="absolute superhero"
+            >
+              Iron Man
+            </h5>
+            <h5
+              className="absolute publisher"
+            >
+              Marvel Comics
+            </h5>
+            <img
+              alt="Iron Man"
+              className="img"
+              src="./assets/heroes/marvel-iron.jpg"
+            />
+          </a>
+        </div>
+        <div
+          className="container-child"
+        >
+          <a
+            href="/hero/marvel-thor"
+            onClick={[Function]}
+          >
+            <h5
+              className="absolute superhero"
+            >
+              Thor
+            </h5>
+            <h5
+              className="absolute publisher"
+            >
+              Marvel Comics
+            </h5>
+            <img
+              alt="Thor"
+              className="img"
+              src="./assets/heroes/marvel-thor.jpg"
+            />
+          </a>
+        </div>
+        <div
+          className="container-child"
+        >
+          <a
+            href="/hero/marvel-hulk"
+            onClick={[Function]}
+          >
+            <h5
+              className="absolute superhero"
+            >
+              Hulk
+            </h5>
+            <h5
+              className="absolute publisher"
+            >
+              Marvel Comics
+            </h5>
+            <img
+              alt="Hulk"
+              className="img"
+              src="./assets/heroes/marvel-hulk.jpg"
+            />
+          </a>
+        </div>
+        <div
+          className="container-child"
+        >
+          <a
+            href="/hero/marvel-wolverine"
+            onClick={[Function]}
+          >
+            <h5
+              className="absolute superhero"
+            >
+              Wolverine
+            </h5>
+            <h5
+              className="absolute publisher"
+            >
+              Marvel Comics
+            </h5>
+            <img
+              alt="Wolverine"
+              className="img"
+              src="./assets/heroes/marvel-wolverine.jpg"
+            />
+          </a>
+        </div>
+        <div
+          className="container-child"
+        >
+          <a
+            href="/hero/marvel-daredevil"
+            onClick={[Function]}
+          >
+            <h5
+              className="absolute superhero"
+            >
+              Daredevil
+            </h5>
+            <h5
+              className="absolute publisher"
+            >
+              Marvel Comics
+            </h5>
+            <img
+              alt="Daredevil"
+              className="img"
+              src="./assets/heroes/marvel-daredevil.jpg"
+            />
+          </a>
+        </div>
+        <div
+          className="container-child"
+        >
+          <a
+            href="/hero/marvel-hawkeye"
+            onClick={[Function]}
+          >
+            <h5
+              className="absolute superhero"
+            >
+              Hawkeye
+            </h5>
+            <h5
+              className="absolute publisher"
+            >
+              Marvel Comics
+            </h5>
+            <img
+              alt="Hawkeye"
+              className="img"
+              src="./assets/heroes/marvel-hawkeye.jpg"
+            />
+          </a>
+        </div>
+        <div
+          className="container-child"
+        >
+          <a
+            href="/hero/marvel-cyclops"
+            onClick={[Function]}
+          >
+            <h5
+              className="absolute superhero"
+            >
+              Cyclops
+            </h5>
+            <h5
+              className="absolute publisher"
+            >
+              Marvel Comics
+            </h5>
+            <img
+              alt="Cyclops"
+              className="img"
+              src="./assets/heroes/marvel-cyclops.jpg"
+            />
+          </a>
+        </div>
+        <div
+          className="container-child"
+        >
+          <a
+            href="/hero/marvel-silver"
+            onClick={[Function]}
+          >
+            <h5
+              className="absolute superhero"
+            >
+              Silver Surfer
+            </h5>
+            <h5
+              className="absolute publisher"
+            >
+              Marvel Comics
+            </h5>
+            <img
+              alt="Silver Surfer"
+              className="img"
+              src="./assets/heroes/marvel-silver.jpg"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

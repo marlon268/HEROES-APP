@@ -1,0 +1,642 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <SearchScreen /> Debe de mostrar a batman y el input con el valor del queryString 1`] = `
+<div>
+  <h1>
+    Search
+  </h1>
+  <hr />
+  <div>
+    <div>
+      <h4>
+         Search Form 
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Find your hero"
+          type="text"
+          value="batman"
+        />
+        <button
+          className="brn m-1"
+          type="submit"
+        >
+          Search...
+        </button>
+      </form>
+      <h4>
+        Results
+      </h4>
+      <hr />
+    </div>
+    <div
+      className="container1"
+    >
+      <div
+        className="container-child"
+      >
+        <a
+          href="/hero/dc-batman"
+          onClick={[Function]}
+        >
+          <h5
+            className="absolute superhero"
+          >
+            Batman
+          </h5>
+          <h5
+            className="absolute publisher"
+          >
+            DC Comics
+          </h5>
+          <img
+            alt="Batman"
+            className="img"
+            src="./assets/heroes/dc-batman.jpg"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Pruebas en <SearchScreen /> Debe de mostrar un error si no se encuentra el hero 1`] = `
+<div>
+  <h1>
+    Search
+  </h1>
+  <hr />
+  <div>
+    <div>
+      <h4>
+         Search Form 
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Find your hero"
+          type="text"
+          value="batman123"
+        />
+        <button
+          className="brn m-1"
+          type="submit"
+        >
+          Search...
+        </button>
+      </form>
+      <h4>
+        Results
+      </h4>
+      <hr />
+    </div>
+    <div
+      className="container1"
+    >
+      <h1
+        className="text-danger"
+      >
+        Heroe no existe
+      </h1>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Pruebas en <SearchScreen /> Debe de mostrarse correctamente con valores por defecto 1`] = `
+<div>
+  <h1>
+    Search
+  </h1>
+  <hr />
+  <div>
+    <div>
+      <h4>
+         Search Form 
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Find your hero"
+          type="text"
+          value=""
+        />
+        <button
+          className="brn m-1"
+          type="submit"
+        >
+          Search...
+        </button>
+      </form>
+      <h4>
+        Results
+      </h4>
+      <hr />
+    </div>
+    <div
+      className="container1"
+    >
+      <div
+        className="container-child"
+      >
+        <a
+          href="/hero/dc-batman"
+          onClick={[Function]}
+        >
+          <h5
+            className="absolute superhero"
+          >
+            Batman
+          </h5>
+          <h5
+            className="absolute publisher"
+          >
+            DC Comics
+          </h5>
+          <img
+            alt="Batman"
+            className="img"
+            src="./assets/heroes/dc-batman.jpg"
+          />
+        </a>
+      </div>
+      <div
+        className="container-child"
+      >
+        <a
+          href="/hero/dc-superman"
+          onClick={[Function]}
+        >
+          <h5
+            className="absolute superhero"
+          >
+            Superman
+          </h5>
+          <h5
+            className="absolute publisher"
+          >
+            DC Comics
+          </h5>
+          <img
+            alt="Superman"
+            className="img"
+            src="./assets/heroes/dc-superman.jpg"
+          />
+        </a>
+      </div>
+      <div
+        className="container-child"
+      >
+        <a
+          href="/hero/dc-flash"
+          onClick={[Function]}
+        >
+          <h5
+            className="absolute superhero"
+          >
+            Flash
+          </h5>
+          <h5
+            className="absolute publisher"
+          >
+            DC Comics
+          </h5>
+          <img
+            alt="Flash"
+            className="img"
+            src="./assets/heroes/dc-flash.jpg"
+          />
+        </a>
+      </div>
+      <div
+        className="container-child"
+      >
+        <a
+          href="/hero/dc-green"
+          onClick={[Function]}
+        >
+          <h5
+            className="absolute superhero"
+          >
+            Green Lantern
+          </h5>
+          <h5
+            className="absolute publisher"
+          >
+            DC Comics
+          </h5>
+          <img
+            alt="Green Lantern"
+            className="img"
+            src="./assets/heroes/dc-green.jpg"
+          />
+        </a>
+      </div>
+      <div
+        className="container-child"
+      >
+        <a
+          href="/hero/dc-arrow"
+          onClick={[Function]}
+        >
+          <h5
+            className="absolute superhero"
+          >
+            Green Arrow
+          </h5>
+          <h5
+            className="absolute publisher"
+          >
+            DC Comics
+          </h5>
+          <img
+            alt="Green Arrow"
+            className="img"
+            src="./assets/heroes/dc-arrow.jpg"
+          />
+        </a>
+      </div>
+      <div
+        className="container-child"
+      >
+        <a
+          href="/hero/dc-wonder"
+          onClick={[Function]}
+        >
+          <h5
+            className="absolute superhero"
+          >
+            Wonder Woman
+          </h5>
+          <h5
+            className="absolute publisher"
+          >
+            DC Comics
+          </h5>
+          <img
+            alt="Wonder Woman"
+            className="img"
+            src="./assets/heroes/dc-wonder.jpg"
+          />
+        </a>
+      </div>
+      <div
+        className="container-child"
+      >
+        <a
+          href="/hero/dc-martian"
+          onClick={[Function]}
+        >
+          <h5
+            className="absolute superhero"
+          >
+            Martian Manhunter
+          </h5>
+          <h5
+            className="absolute publisher"
+          >
+            DC Comics
+          </h5>
+          <img
+            alt="Martian Manhunter"
+            className="img"
+            src="./assets/heroes/dc-martian.jpg"
+          />
+        </a>
+      </div>
+      <div
+        className="container-child"
+      >
+        <a
+          href="/hero/dc-robin"
+          onClick={[Function]}
+        >
+          <h5
+            className="absolute superhero"
+          >
+            Robin/Nightwing
+          </h5>
+          <h5
+            className="absolute publisher"
+          >
+            DC Comics
+          </h5>
+          <img
+            alt="Robin/Nightwing"
+            className="img"
+            src="./assets/heroes/dc-robin.jpg"
+          />
+        </a>
+      </div>
+      <div
+        className="container-child"
+      >
+        <a
+          href="/hero/dc-blue"
+          onClick={[Function]}
+        >
+          <h5
+            className="absolute superhero"
+          >
+            Blue Beetle
+          </h5>
+          <h5
+            className="absolute publisher"
+          >
+            DC Comics
+          </h5>
+          <img
+            alt="Blue Beetle"
+            className="img"
+            src="./assets/heroes/dc-blue.jpg"
+          />
+        </a>
+      </div>
+      <div
+        className="container-child"
+      >
+        <a
+          href="/hero/dc-black"
+          onClick={[Function]}
+        >
+          <h5
+            className="absolute superhero"
+          >
+            Black Canary
+          </h5>
+          <h5
+            className="absolute publisher"
+          >
+            DC Comics
+          </h5>
+          <img
+            alt="Black Canary"
+            className="img"
+            src="./assets/heroes/dc-black.jpg"
+          />
+        </a>
+      </div>
+      <div
+        className="container-child"
+      >
+        <a
+          href="/hero/marvel-spider"
+          onClick={[Function]}
+        >
+          <h5
+            className="absolute superhero"
+          >
+            Spider Man
+          </h5>
+          <h5
+            className="absolute publisher"
+          >
+            Marvel Comics
+          </h5>
+          <img
+            alt="Spider Man"
+            className="img"
+            src="./assets/heroes/marvel-spider.jpg"
+          />
+        </a>
+      </div>
+      <div
+        className="container-child"
+      >
+        <a
+          href="/hero/marvel-captain"
+          onClick={[Function]}
+        >
+          <h5
+            className="absolute superhero"
+          >
+            Captain America
+          </h5>
+          <h5
+            className="absolute publisher"
+          >
+            Marvel Comics
+          </h5>
+          <img
+            alt="Captain America"
+            className="img"
+            src="./assets/heroes/marvel-captain.jpg"
+          />
+        </a>
+      </div>
+      <div
+        className="container-child"
+      >
+        <a
+          href="/hero/marvel-iron"
+          onClick={[Function]}
+        >
+          <h5
+            className="absolute superhero"
+          >
+            Iron Man
+          </h5>
+          <h5
+            className="absolute publisher"
+          >
+            Marvel Comics
+          </h5>
+          <img
+            alt="Iron Man"
+            className="img"
+            src="./assets/heroes/marvel-iron.jpg"
+          />
+        </a>
+      </div>
+      <div
+        className="container-child"
+      >
+        <a
+          href="/hero/marvel-thor"
+          onClick={[Function]}
+        >
+          <h5
+            className="absolute superhero"
+          >
+            Thor
+          </h5>
+          <h5
+            className="absolute publisher"
+          >
+            Marvel Comics
+          </h5>
+          <img
+            alt="Thor"
+            className="img"
+            src="./assets/heroes/marvel-thor.jpg"
+          />
+        </a>
+      </div>
+      <div
+        className="container-child"
+      >
+        <a
+          href="/hero/marvel-hulk"
+          onClick={[Function]}
+        >
+          <h5
+            className="absolute superhero"
+          >
+            Hulk
+          </h5>
+          <h5
+            className="absolute publisher"
+          >
+            Marvel Comics
+          </h5>
+          <img
+            alt="Hulk"
+            className="img"
+            src="./assets/heroes/marvel-hulk.jpg"
+          />
+        </a>
+      </div>
+      <div
+        className="container-child"
+      >
+        <a
+          href="/hero/marvel-wolverine"
+          onClick={[Function]}
+        >
+          <h5
+            className="absolute superhero"
+          >
+            Wolverine
+          </h5>
+          <h5
+            className="absolute publisher"
+          >
+            Marvel Comics
+          </h5>
+          <img
+            alt="Wolverine"
+            className="img"
+            src="./assets/heroes/marvel-wolverine.jpg"
+          />
+        </a>
+      </div>
+      <div
+        className="container-child"
+      >
+        <a
+          href="/hero/marvel-daredevil"
+          onClick={[Function]}
+        >
+          <h5
+            className="absolute superhero"
+          >
+            Daredevil
+          </h5>
+          <h5
+            className="absolute publisher"
+          >
+            Marvel Comics
+          </h5>
+          <img
+            alt="Daredevil"
+            className="img"
+            src="./assets/heroes/marvel-daredevil.jpg"
+          />
+        </a>
+      </div>
+      <div
+        className="container-child"
+      >
+        <a
+          href="/hero/marvel-hawkeye"
+          onClick={[Function]}
+        >
+          <h5
+            className="absolute superhero"
+          >
+            Hawkeye
+          </h5>
+          <h5
+            className="absolute publisher"
+          >
+            Marvel Comics
+          </h5>
+          <img
+            alt="Hawkeye"
+            className="img"
+            src="./assets/heroes/marvel-hawkeye.jpg"
+          />
+        </a>
+      </div>
+      <div
+        className="container-child"
+      >
+        <a
+          href="/hero/marvel-cyclops"
+          onClick={[Function]}
+        >
+          <h5
+            className="absolute superhero"
+          >
+            Cyclops
+          </h5>
+          <h5
+            className="absolute publisher"
+          >
+            Marvel Comics
+          </h5>
+          <img
+            alt="Cyclops"
+            className="img"
+            src="./assets/heroes/marvel-cyclops.jpg"
+          />
+        </a>
+      </div>
+      <div
+        className="container-child"
+      >
+        <a
+          href="/hero/marvel-silver"
+          onClick={[Function]}
+        >
+          <h5
+            className="absolute superhero"
+          >
+            Silver Surfer
+          </h5>
+          <h5
+            className="absolute publisher"
+          >
+            Marvel Comics
+          </h5>
+          <img
+            alt="Silver Surfer"
+            className="img"
+            src="./assets/heroes/marvel-silver.jpg"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
