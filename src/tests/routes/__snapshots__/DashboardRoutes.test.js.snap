@@ -89,7 +89,7 @@ Array [
             <img
               alt="Spider Man"
               className="img"
-              src="./assets/heroes/marvel-spider.jpg"
+              src=""
             />
           </a>
         </div>
@@ -113,7 +113,7 @@ Array [
             <img
               alt="Captain America"
               className="img"
-              src="./assets/heroes/marvel-captain.jpg"
+              src=""
             />
           </a>
         </div>
@@ -137,7 +137,7 @@ Array [
             <img
               alt="Iron Man"
               className="img"
-              src="./assets/heroes/marvel-iron.jpg"
+              src=""
             />
           </a>
         </div>
@@ -161,7 +161,7 @@ Array [
             <img
               alt="Thor"
               className="img"
-              src="./assets/heroes/marvel-thor.jpg"
+              src=""
             />
           </a>
         </div>
@@ -185,7 +185,7 @@ Array [
             <img
               alt="Hulk"
               className="img"
-              src="./assets/heroes/marvel-hulk.jpg"
+              src=""
             />
           </a>
         </div>
@@ -209,7 +209,7 @@ Array [
             <img
               alt="Wolverine"
               className="img"
-              src="./assets/heroes/marvel-wolverine.jpg"
+              src=""
             />
           </a>
         </div>
@@ -233,7 +233,7 @@ Array [
             <img
               alt="Daredevil"
               className="img"
-              src="./assets/heroes/marvel-daredevil.jpg"
+              src=""
             />
           </a>
         </div>
@@ -257,7 +257,7 @@ Array [
             <img
               alt="Hawkeye"
               className="img"
-              src="./assets/heroes/marvel-hawkeye.jpg"
+              src=""
             />
           </a>
         </div>
@@ -281,7 +281,7 @@ Array [
             <img
               alt="Cyclops"
               className="img"
-              src="./assets/heroes/marvel-cyclops.jpg"
+              src=""
             />
           </a>
         </div>
@@ -305,7 +305,7 @@ Array [
             <img
               alt="Silver Surfer"
               className="img"
-              src="./assets/heroes/marvel-silver.jpg"
+              src=""
             />
           </a>
         </div>

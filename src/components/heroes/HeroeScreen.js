@@ -1,8 +1,11 @@
 import React, { useMemo } from 'react'
 import { Redirect, useParams } from 'react-router-dom'
+import { loadImage } from '../../helpers/heroImages';
 import { getHeroeById } from '../../selectors/getHeroById';
-
+/* import batman from '../../assets/heroes/dc-batman.jpg'  recurso estatico */
 import "../../styles/HeroScreen.css"
+
+
 
 export const HeroeScreen = ({ history }) => {
 
@@ -31,7 +34,9 @@ export const HeroeScreen = ({ history }) => {
       <article className="container-card">
          <div className="container-card__img">
             <img
-               src={`../assets/heroes/${heroeId}.jpg`}
+               /* src={`../assets/heroes/${heroeId}.jpg`} desde public/assets */
+               /* src={batman} import */
+               src={loadImage(`${heroeId}.jpg`)}
                alt={superhero} />
          </div>
 

@@ -59,7 +59,7 @@ exports[`Pruebas en <SearchScreen /> Debe de mostrar a batman y el input con el 
           <img
             alt="Batman"
             className="img"
-            src="./assets/heroes/dc-batman.jpg"
+            src=""
           />
         </a>
       </div>
@@ -176,7 +176,7 @@ exports[`Pruebas en <SearchScreen /> Debe de mostrarse correctamente con valores
           <img
             alt="Batman"
             className="img"
-            src="./assets/heroes/dc-batman.jpg"
+            src=""
           />
         </a>
       </div>
@@ -200,7 +200,7 @@ exports[`Pruebas en <SearchScreen /> Debe de mostrarse correctamente con valores
           <img
             alt="Superman"
             className="img"
-            src="./assets/heroes/dc-superman.jpg"
+            src=""
           />
         </a>
       </div>
@@ -224,7 +224,7 @@ exports[`Pruebas en <SearchScreen /> Debe de mostrarse correctamente con valores
           <img
             alt="Flash"
             className="img"
-            src="./assets/heroes/dc-flash.jpg"
+            src=""
           />
         </a>
       </div>
@@ -248,7 +248,7 @@ exports[`Pruebas en <SearchScreen /> Debe de mostrarse correctamente con valores
           <img
             alt="Green Lantern"
             className="img"
-            src="./assets/heroes/dc-green.jpg"
+            src=""
           />
         </a>
       </div>
@@ -272,7 +272,7 @@ exports[`Pruebas en <SearchScreen /> Debe de mostrarse correctamente con valores
           <img
             alt="Green Arrow"
             className="img"
-            src="./assets/heroes/dc-arrow.jpg"
+            src=""
           />
         </a>
       </div>
@@ -296,7 +296,7 @@ exports[`Pruebas en <SearchScreen /> Debe de mostrarse correctamente con valores
           <img
             alt="Wonder Woman"
             className="img"
-            src="./assets/heroes/dc-wonder.jpg"
+            src=""
           />
         </a>
       </div>
@@ -320,7 +320,7 @@ exports[`Pruebas en <SearchScreen /> Debe de mostrarse correctamente con valores
           <img
             alt="Martian Manhunter"
             className="img"
-            src="./assets/heroes/dc-martian.jpg"
+            src=""
           />
         </a>
       </div>
@@ -344,7 +344,7 @@ exports[`Pruebas en <SearchScreen /> Debe de mostrarse correctamente con valores
           <img
             alt="Robin/Nightwing"
             className="img"
-            src="./assets/heroes/dc-robin.jpg"
+            src=""
           />
         </a>
       </div>
@@ -368,7 +368,7 @@ exports[`Pruebas en <SearchScreen /> Debe de mostrarse correctamente con valores
           <img
             alt="Blue Beetle"
             className="img"
-            src="./assets/heroes/dc-blue.jpg"
+            src=""
           />
         </a>
       </div>
@@ -392,7 +392,7 @@ exports[`Pruebas en <SearchScreen /> Debe de mostrarse correctamente con valores
           <img
             alt="Black Canary"
             className="img"
-            src="./assets/heroes/dc-black.jpg"
+            src=""
           />
         </a>
       </div>
@@ -416,7 +416,7 @@ exports[`Pruebas en <SearchScreen /> Debe de mostrarse correctamente con valores
           <img
             alt="Spider Man"
             className="img"
-            src="./assets/heroes/marvel-spider.jpg"
+            src=""
           />
         </a>
       </div>
@@ -440,7 +440,7 @@ exports[`Pruebas en <SearchScreen /> Debe de mostrarse correctamente con valores
           <img
             alt="Captain America"
             className="img"
-            src="./assets/heroes/marvel-captain.jpg"
+            src=""
           />
         </a>
       </div>
@@ -464,7 +464,7 @@ exports[`Pruebas en <SearchScreen /> Debe de mostrarse correctamente con valores
           <img
             alt="Iron Man"
             className="img"
-            src="./assets/heroes/marvel-iron.jpg"
+            src=""
           />
         </a>
       </div>
@@ -488,7 +488,7 @@ exports[`Pruebas en <SearchScreen /> Debe de mostrarse correctamente con valores
           <img
             alt="Thor"
             className="img"
-            src="./assets/heroes/marvel-thor.jpg"
+            src=""
           />
         </a>
       </div>
@@ -512,7 +512,7 @@ exports[`Pruebas en <SearchScreen /> Debe de mostrarse correctamente con valores
           <img
             alt="Hulk"
             className="img"
-            src="./assets/heroes/marvel-hulk.jpg"
+            src=""
           />
         </a>
       </div>
@@ -536,7 +536,7 @@ exports[`Pruebas en <SearchScreen /> Debe de mostrarse correctamente con valores
           <img
             alt="Wolverine"
             className="img"
-            src="./assets/heroes/marvel-wolverine.jpg"
+            src=""
           />
         </a>
       </div>
@@ -560,7 +560,7 @@ exports[`Pruebas en <SearchScreen /> Debe de mostrarse correctamente con valores
           <img
             alt="Daredevil"
             className="img"
-            src="./assets/heroes/marvel-daredevil.jpg"
+            src=""
           />
         </a>
       </div>
@@ -584,7 +584,7 @@ exports[`Pruebas en <SearchScreen /> Debe de mostrarse correctamente con valores
           <img
             alt="Hawkeye"
             className="img"
-            src="./assets/heroes/marvel-hawkeye.jpg"
+            src=""
           />
         </a>
       </div>
@@ -608,7 +608,7 @@ exports[`Pruebas en <SearchScreen /> Debe de mostrarse correctamente con valores
           <img
             alt="Cyclops"
             className="img"
-            src="./assets/heroes/marvel-cyclops.jpg"
+            src=""
           />
         </a>
       </div>
@@ -632,7 +632,7 @@ exports[`Pruebas en <SearchScreen /> Debe de mostrarse correctamente con valores
           <img
             alt="Silver Surfer"
             className="img"
-            src="./assets/heroes/marvel-silver.jpg"
+            src=""
           />
         </a>
       </div>
